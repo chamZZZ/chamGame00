@@ -5,6 +5,14 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
 	[SerializeField]
+	private PlayerParam m_param;
+	public PlayerParam param
+	{
+		get { return m_param; }
+		set { m_param = value; }
+	}
+
+	[SerializeField]
 	private GameObject m_model = default;
 	[SerializeField]
 	private int m_teamNo;
