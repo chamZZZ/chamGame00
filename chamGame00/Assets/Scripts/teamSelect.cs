@@ -7,9 +7,6 @@ public class teamSelect : MonoBehaviour
 	[SerializeField]
 	private int currentTeam = 0;
 
-	[SerializeField]
-	private UIManager uIManager = default;
-
 	private void Awake()
 	{
 		transform.localPosition = new Vector3(0f, -448f, 0f);
@@ -26,7 +23,6 @@ public class teamSelect : MonoBehaviour
 	public void onClickTeamSelect(int no)
 	{
 		currentTeam = no;
-
-		uIManager.UIControl(2);
+		UIManager.Instance.UIControl(2);
 	}
 }
