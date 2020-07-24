@@ -362,6 +362,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73111993}
   m_CullTransparentMesh: 0
+--- !u!1 &129542654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7653235979274813209, guid: 763d106e0522bbf46b1a9a77a90a6603,
+    type: 3}
+  m_PrefabInstance: {fileID: 7653235980187641422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &140731458
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +612,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -621,6 +628,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e1d6cd4f899144c9d25b8a5157a221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetObject: {fileID: 129542654}
+  offsetPos: {x: 160, y: 230, z: 160}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
