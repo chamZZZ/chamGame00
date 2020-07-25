@@ -21,6 +21,13 @@ public class PlayerScript : MonoBehaviour
 		get { return m_teamNo; }
 		set { m_teamNo = value; }
 	}
+	[SerializeField]
+	private int m_playerNo;
+	public int playerNo
+	{
+		get { return m_playerNo; }
+		set { m_playerNo = value; }
+	}
 
 	[SerializeField]
 	private float m_speed = default;

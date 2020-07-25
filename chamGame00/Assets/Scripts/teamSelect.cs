@@ -23,6 +23,9 @@ public class teamSelect : MonoBehaviour
 	public void onClickTeamSelect(int no)
 	{
 		currentTeam = no;
-		UIManager.Instance.UIControl(2);
+
+		PlayerManager.Instance.SetCurrentPlayer(no - 1);
+
+//		UIManager.Instance.UIControl(2);
 	}
 }
