@@ -21,6 +21,15 @@ public class PlayerScript : MonoBehaviour
 		get { return m_teamNo; }
 		set { m_teamNo = value; }
 	}
+
+	[SerializeField]
+	private int m_teamOffset;
+	public int teamOffset
+	{
+		get { return m_teamOffset; }
+		set { m_teamOffset = value; }
+	}
+
 	[SerializeField]
 	private int m_playerNo;
 	public int playerNo
