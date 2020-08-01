@@ -5,22 +5,44 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
 	[SerializeField]
-	private PlayerParam m_param;
-	public PlayerParam param
+	private int m_armyNo;
+	public int armyNo
 	{
-		get { return m_param; }
-		set { m_param = value; }
+		get { return m_armyNo; }
+		set { m_armyNo = value; }
 	}
 
 	[SerializeField]
-	private GameObject m_model = default;
-	[SerializeField]
-	private int m_teamNo;
-	public int teamNo
+	private int m_partyNo;
+	public int partyNo
 	{
-		get { return m_teamNo; }
-		set { m_teamNo = value; }
+		get { return m_partyNo; }
+		set { m_partyNo = value; }
 	}
+
+	[SerializeField]
+	private int m_fighterNo;
+	public int fighterNo
+	{
+		get { return m_fighterNo; }
+		set { m_fighterNo = value; }
+	}
+
+	public class PlayerParam
+	{
+		public int body;
+		public int element;
+		public int weapon;
+		public int speed;
+		public int power;
+		public int defence;
+		public int bild;
+		public int heling;
+	}
+	public PlayerParam param;
+
+	[SerializeField]
+	private GameObject m_model = default;
 
 	[SerializeField]
 	private int m_teamOffset;
@@ -28,14 +50,6 @@ public class PlayerScript : MonoBehaviour
 	{
 		get { return m_teamOffset; }
 		set { m_teamOffset = value; }
-	}
-
-	[SerializeField]
-	private int m_playerNo;
-	public int playerNo
-	{
-		get { return m_playerNo; }
-		set { m_playerNo = value; }
 	}
 
 	[SerializeField]
@@ -62,7 +76,10 @@ public class PlayerScript : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		modelInitialize(teamNo);
+		param = new PlayerParam();
+		PlayerManager.Instance.SetPlayerParam(param);
+		// Model Initialize
+		modelInitialize();
 
 		playerInitialize();
 	}
@@ -142,19 +159,25 @@ public class PlayerScript : MonoBehaviour
 
 	}
 
-	private void modelInitialize(int teamNo)
+	private void modelInitialize()
 	{
-		if (m_model == null) return;
+		m_model = ModelManager.Instance.GetModelObject(param.body);
+		m_model.transform.SetParent(transform);
+		m_model.transform.localPosition = new Vector3(0f, 1f, 0f);
 
 		MeshRenderer mesh = m_model.GetComponent<MeshRenderer>();
 
-		if(teamNo ==0 )
+		switch(param.element)
 		{
-			mesh.material.color = new Color(1f, 0f, 0f, 1f);
-		}
-		else
-		{
-			mesh.material.color = new Color(0f, 0f, 1f, 1f);
+			case 0:
+				mesh.material.color = new Color(1f, 0f, 0f, 1f);
+				break;
+			case 1:
+				mesh.material.color = new Color(0f, 0f, 1f, 1f);
+				break;
+			case 2:
+				mesh.material.color = new Color(0f, 1f, 0f, 1f);
+				break;
 		}
 	}
 }

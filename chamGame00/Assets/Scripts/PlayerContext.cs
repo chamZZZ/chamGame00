@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Game/Create PlayerContext")]
 public class PlayerContext : ScriptableObject
 {
-	public static int PLAYER_NUM = 5;
+	public static int PLAYER_NUM = 100;
 
 	public static int testData;
 }

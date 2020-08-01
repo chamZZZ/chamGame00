@@ -36,7 +36,7 @@ public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
 			obj.transform.SetParent(transform);
 
 			PlayerScript plScr = obj.GetComponent<PlayerScript>();
-			plScr.playerNo = i;
+
 			Vector3 pos = new Vector3();
 			pos.x = Random.Range(-50f, 50f);
 			pos.z = Random.Range(-50f, 50f);
@@ -45,6 +45,14 @@ public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
 
 			players.Add(plScr);
 		}
+	}
+
+	public void SetPlayerParam(PlayerScript.PlayerParam param)
+	{
+		param.body = Random.Range(0, 3);
+		param.element = Random.Range(0, 3);
+		param.weapon = Random.Range(0, 3);
+
 	}
 
 	public void SetCurrentPlayer(int No)
