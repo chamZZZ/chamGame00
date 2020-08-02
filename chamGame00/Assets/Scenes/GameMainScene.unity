@@ -1148,6 +1148,7 @@ MonoBehaviour:
   playerObject: {fileID: 7653235979274813209, guid: 763d106e0522bbf46b1a9a77a90a6603,
     type: 3}
   currentPlayerNo: 0
+  memberData: {fileID: 11400000, guid: f90bbff97c1016f4b84ba1139d58cc55, type: 2}
 --- !u!4 &1146709502
 Transform:
   m_ObjectHideFlags: 0

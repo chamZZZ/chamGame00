@@ -1,0 +1,815 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4889e54e2ae17e43a9d99d0b49ba5dd, type: 3}
+  m_Name: armyData00
+  m_EditorClassIdentifier: 
+  armyData:
+  - body: 0
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 1
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 1
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 1
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 2
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 0
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 0
+    element: 1
+    weapon: 1
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 2
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 1
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 2
+    element: 0
+    weapon: 2
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0
+  - body: 1
+    element: 2
+    weapon: 0
+    speed: 0
+    power: 0
+    defence: 0
+    bild: 0
+    heling: 0

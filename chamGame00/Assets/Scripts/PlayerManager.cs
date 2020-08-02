@@ -13,6 +13,9 @@ public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
 	[SerializeField]
 	private int currentPlayerNo = 0;
 
+	[SerializeField]
+	private MemberData memberData = default;
+
 
 	// Start is called before the first frame update
 	void Start()
@@ -36,6 +39,7 @@ public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
 			obj.transform.SetParent(transform);
 
 			PlayerScript plScr = obj.GetComponent<PlayerScript>();
+			plScr.armyNo = i;
 
 			Vector3 pos = new Vector3();
 			pos.x = Random.Range(-50f, 50f);
@@ -47,17 +51,23 @@ public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
 		}
 	}
 
-	public void SetPlayerParam(PlayerScript.PlayerParam param)
+	public void SetPlayerParam(PlayerScript.PlayerParam param,int armyNo)
 	{
-		param.body = Random.Range(0, 3);
-		param.element = Random.Range(0, 3);
-		param.weapon = Random.Range(0, 3);
-
+		param = GetPlayerParam(armyNo);
 	}
 
 	public void SetCurrentPlayer(int No)
 	{
 		currentPlayerNo = No;
 		CameraManager.Instance.SetCameraTarget(players[No].transform.gameObject);
+	}
+
+	public PlayerScript.PlayerParam GetPlayerParam(int No)
+	{
+		PlayerScript.PlayerParam param = new PlayerScript.PlayerParam();
+
+		param = memberData.armyData[No];
+
+		return param;
 	}
 }

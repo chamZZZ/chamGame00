@@ -28,6 +28,7 @@ public class PlayerScript : MonoBehaviour
 		set { m_fighterNo = value; }
 	}
 
+	[System.Serializable]
 	public class PlayerParam
 	{
 		public int body;
@@ -77,7 +78,8 @@ public class PlayerScript : MonoBehaviour
 	void Start()
 	{
 		param = new PlayerParam();
-		PlayerManager.Instance.SetPlayerParam(param);
+		param = PlayerManager.Instance.GetPlayerParam(armyNo);
+//		PlayerManager.Instance.SetPlayerParam(param,armyNo);
 		// Model Initialize
 		modelInitialize();
 
