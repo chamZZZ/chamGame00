@@ -683,6 +683,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 0}
   offsetPos: {x: 16, y: 22, z: 16}
+  distance: 15
+  polarAngle: 45
+  azimuthalAngle: 45
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
